@@ -577,13 +577,14 @@ fill: currentColor;
 
 .mail-input{
     margin-left: auto;
-    min-width: 570px;
+    /*min-width: 570px;*/
  } 
 
  .footer-form{
 display: flex;
 justify-content: center;
 align-items: center;
+width: 570px;
  }
 
 .footer-input{
@@ -608,17 +609,13 @@ font-family: inherit;
 font-size: 16px;
 line-height: 1.25px;
 letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    transition: color 250ms var(--timing-function);   
+color: rgba(255, 255, 255, 0.6);  
 }
-
 .footer-input:focus{
-border-color: var(--accent-color);
-color: var(--second-text-color);
+color:  rgba(255, 255, 255, 0.6) ;
 }
 
 .sending-btn{
-position: relative;
 display: flex;
 border-radius: 4px;
 padding: 10px 28px;
@@ -645,17 +642,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .sending-icon{
-position: absolute;
-background-repeat: no-repeat;
-background-size: contain;
-right: 130px;
-}
-
-.sending-link{
 display: flex;
 align-items: center;
-
+background-repeat: no-repeat;
+background-size: contain;
+margin-left: 10px;
 }
+
 
 /*портфоліо фільтри*/
 .portfolio{
