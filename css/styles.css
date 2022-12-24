@@ -217,6 +217,7 @@ border: 1px solid #000000;
 border-radius: 4px;
 padding: 10px 32px;
 min-width: 152px;
+border: none;
 
 background-color: var(--accent-color);
 color: var(--second-text-color);
@@ -632,6 +633,7 @@ line-height: 1.875;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+border: none;
 transition: background-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
@@ -819,8 +821,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 height: 100%;
-padding-top: 221px;
-padding-bottom: 222px;
 }
 
 .modal-container{
@@ -904,6 +904,7 @@ padding: 12px 16px;
 margin-bottom: 20px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+resize: none; /*щоб не збільшувався розмір*/
 outline: none;
 transition: border-color 250ms var(--timing-function);
 }
